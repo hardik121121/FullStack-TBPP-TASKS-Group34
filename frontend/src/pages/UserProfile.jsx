@@ -50,7 +50,7 @@ const UserProfile = ({ user: loggedInUser }) => {
         <div className="flex flex-col items-center justify-center">
           <div className="p-6 w-full">
             <div className="flex items-center justify-center">
-              <div className="w-24 h-24 rounded-full bg-gray-300 flex items-center justify-center">
+              <div className="w-24 h-24 rounded-full shadow-xl bg-gray-300 flex items-center justify-center">
                 {user.name && (
                   <span className="text-3xl text-gray-700">
                     {user.name.slice(0, 1)}

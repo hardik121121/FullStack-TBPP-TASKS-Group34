@@ -33,7 +33,7 @@ const Account = ({ user }) => {
       <div className="flex flex-col items-center justify-center">
         <div className="p-6 w-full">
           <div className="flex items-center justify-center">
-            <div className="w-24 h-24 rounded-full bg-gray-300 flex items-center justify-center">
+            <div className="w-24 h-24 rounded-full bg-gray-300 flex items-center justify-center shadow-2xl">
               <span className="text-3xl text-gray-700">
                 {user.name.slice(0, 1)}
               </span>

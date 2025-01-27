@@ -48,7 +48,7 @@ const Create = () => {
           <div className="flex flex-col items-center justify-center w-80 h-auto p-6 bg-white rounded-lg shadow-lg">
             {filePrev && <img src={filePrev} alt="" />}
             <div
-              className="flex flex-col items-center justify-center h-full cursor-pointer"
+              className="flex flex-col items-center justify-center h-full cursor-pointer "
               onClick={handleClick}
             >
               <input
@@ -61,7 +61,7 @@ const Create = () => {
               <div className="w-12 h-12 mb-4 flex items-center justify-center bg-gray-200 rounded-full">
                 <FaPlus />
               </div>
-              <p className="text-gray-500">Choose a file</p>
+              <p className="text-gray-500 hover:text-gray-200">Choose a file</p>
             </div>
             <p className="mt-4 text-sm text-gray-400">
               we recomment using high quality .jpg files but less than 10mb

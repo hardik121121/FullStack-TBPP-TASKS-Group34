@@ -58,7 +58,7 @@ const PinPage = ({ user }) => {
   return (
     <div>
       {pin && (
-        <div className="flex flex-col items-center bg-gray-100 p-4 min-h-screen">
+        <div className="flex flex-col items-center bg-gray-200 p-4 min-h-screen">
           {loading ? (
             <Loading />
           ) : (
