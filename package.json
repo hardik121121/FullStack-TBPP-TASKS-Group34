@@ -1,13 +1,13 @@
 {
   "name": "tbpp-task-pinterest-clone_group--34",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to the **Pinterest Clone** repository! 🚀 This project is a **full-stack application** built by **Group 34** as part of the **TBPP Task**. The app mimics the **Pinterest** platform, allowing users to **browse**, **create**, and **interact** with pins, all wrapped up in a super responsive and sleek design. 😎",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node backend/index.js",
     "dev": "nodemon backend/index.js",
-    "build":"npm install && cd frontend && npm install && npm run build"
+    "build": "npm install && cd frontend && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
